@@ -1,7 +1,7 @@
 
 # Kargo Takip URL REPO
 
-Bu repo içinde bilinen kargoların takip url'leri paylaşılmaktadır.
+Bu repo içinde bilinen kargoların takip url'leri paylaşılmaktadır. CTFL+F ile arama yapabilirsiniz.
 
 
 
@@ -60,12 +60,17 @@ yurti.ci/{kargonumarasi}
 selfservis.yurticikargo.com/reports/sswdocumentdetail.aspx?docid={kargonumarasi}
 ```
 
+## Kolay Gelsin
 
+```bash
+https://esube.kolaygelsin.com/shipments?trackingId={kargonumarasi}
+```
+```bash
+https://esube.kolaygelsin.com/detail/{kargonumarasi}
+```
 
+## Kargoist
 
-
-
-
-
-
-
+```bash
+https://kargotakip.kargoist.com/tracking?har_kod={kargonumarasi}
+```
